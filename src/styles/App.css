@@ -1,9 +1,3 @@
-.picture-frame {
-    width: 250px;
-    height: 350px;
-    background-color: red;
-}
-
 h1 {
     margin: 0;
 }
@@ -12,4 +6,20 @@ h1 {
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.picture-frame {
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: 250px;
+    height: 350px;
+    background-color: rgb(83, 79, 79);
+}
+
+.picture {
+    width: 100%;
+    height: 80%;
 }
