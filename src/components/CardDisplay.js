@@ -6,10 +6,13 @@ const CardDisplay = (props) => {
     const [selectedCards, setSelectedCards] = useState([]);
     const components = [];
     const handleClick = (id) => {
-        for(let i = 0; i <  selectedCards.length; i++) {
-            if(selectedCards[i] === id) {
-                alert('lose');
-            }
+        if(!selectedCards.length){
+            props.increaseScore();
+        }
+        if(selectedCards.some(element => element === id)) {
+            alert('lose');
+        } else {
+            props.increaseScore();
         }
         setSelectedCards(selectedCards => [...selectedCards, id]);
     }
@@ -30,7 +33,7 @@ const CardDisplay = (props) => {
         );
     }
     return (
-        <div className>
+        <div>
             {generateCard()}
         </div>
     )
