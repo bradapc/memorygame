@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/memorygame/static/css/main.e86fb53d.css",
+    "main.js": "/memorygame/static/js/main.53947794.js",
+    "static/media/dancingbird.gif": "/memorygame/static/media/dancingbird.aaab9773d3bdad538f87.gif",
+    "static/media/robin.jpg": "/memorygame/static/media/robin.f6c2b64ebf6bac330170.jpg",
+    "static/media/goldfinch.jpg": "/memorygame/static/media/goldfinch.68e9f4d89191db713d10.jpg",
+    "static/media/geese.jpg": "/memorygame/static/media/geese.1a20af06b8b32211db1d.jpg",
+    "static/media/heron.jpg": "/memorygame/static/media/heron.1091d5e69722c26dde86.jpg",
+    "static/media/woodpecker.jpg": "/memorygame/static/media/woodpecker.16f9e06a51696be0bd56.jpg",
+    "static/media/cardinal.jpg": "/memorygame/static/media/cardinal.2d3184a1751e4d8d4aef.jpg",
+    "static/media/sparrow.jpg": "/memorygame/static/media/sparrow.968ec73f0762fd6ff9a1.jpg",
+    "static/media/pigeon.jpg": "/memorygame/static/media/pigeon.51e4506b9bcd2001003d.jpg",
+    "static/media/egg.png": "/memorygame/static/media/egg.99083663759d7b635891.png",
+    "static/media/dove.jpg": "/memorygame/static/media/dove.215634c7fb8a0cdcf20a.jpg",
+    "static/media/bluebird.jpg": "/memorygame/static/media/bluebird.d55876ddbfe7cf9f0701.jpg",
+    "index.html": "/memorygame/index.html",
+    "main.e86fb53d.css.map": "/memorygame/static/css/main.e86fb53d.css.map",
+    "main.53947794.js.map": "/memorygame/static/js/main.53947794.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e86fb53d.css",
+    "static/js/main.53947794.js"
+  ]
+}
