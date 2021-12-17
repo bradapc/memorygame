@@ -1,5 +1,27 @@
-h1 {
+h1, h3 {
     margin: 0;
+}
+
+.main {
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+}
+
+.header {
+    width: 100vw;
+    background-color: rgb(114, 112, 112);
+    text-align: center;
+    padding: 12px;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
 }
 
 .card-holder {
@@ -22,4 +44,24 @@ h1 {
 .picture {
     width: 100%;
     height: 80%;
+    border: 1px solid black;
+}
+
+.output {
+    color: rgb(255, 123, 0);
+    font-size: 36px;
+}
+
+.egg {
+    width: 25px;
+    height: 25px;
+}
+
+.empty {
+    width: 25px;
+    height: 32px;
+}
+
+.epicbird {
+    width: 70px;
 }

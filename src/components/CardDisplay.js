@@ -2,19 +2,20 @@ import React, {useState} from 'react';
 import MemoryCard from './MemoryCard';
 
 const CardDisplay = (props) => {
-    const cards = [0, 1, 2, 3, 4, 5];
+    const cards = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
     const [selectedCards, setSelectedCards] = useState([]);
     const components = [];
     const handleClick = (id) => {
         if(!selectedCards.length){
             props.increaseScore();
+            props.message('success');
         }
         if(selectedCards.some(element => element === id)) {
-            alert('lose');
+            handleLoss();
         } else {
             props.increaseScore();
+            setSelectedCards(selectedCards => [...selectedCards, id]);
         }
-        setSelectedCards(selectedCards => [...selectedCards, id]);
     }
     const generateCard = () => {
         const usedNums = [];
@@ -31,6 +32,11 @@ const CardDisplay = (props) => {
                 {components.map((comp, i) => <div key={i}>{comp}</div>)}
             </div>
         );
+    }
+    const handleLoss = () => {
+        props.message('restart');
+        setSelectedCards([]);
+        props.resetScore();
     }
     return (
         <div>
