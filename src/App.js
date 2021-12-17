@@ -35,7 +35,7 @@ const App = () => {
     return (
         <div className='main'>
             <div className='header'>{epicBird}BIRD QUIZ{epicBird}</div>
-            <h3>remember the birds!</h3>
+            <h2>remember the birds!</h2>
             <Score score={score}/>
             <Output output={output} />
             <CardDisplay increaseScore={increaseScore} 
